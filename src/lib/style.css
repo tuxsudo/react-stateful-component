@@ -1,0 +1,32 @@
+.container {
+    padding: 1em;
+    color: red;
+
+    &__icon {
+        color: purple;
+    }
+}
+.name {
+    color: green;
+    &:after {
+        content: ': ';
+        /*display: block;*/
+    }
+}
+.points {
+    color: blue;
+}
+
+.button {
+    display: block;
+}
+
+.image {
+    display: block;
+    max-width: 3em;
+    transition: transform .2s linear;
+
+    &:hover {
+        transform: scale(3)rotateZ(9deg);
+    }
+}
